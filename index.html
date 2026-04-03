@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bat Ball Stump Game</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<h1>Bat Ball Stump Game</h1>
+
+<div class="container">
+  <button class="choice-button" onclick="playBat()">
+    <img src="images/bat.png" class="choice-image">
+  </button>
+
+  <button class="choice-button" onclick="playBall()">
+    <img src="images/ball.png" class="choice-image">
+  </button>
+
+  <button class="choice-button" onclick="playStump()">
+    <img src="images/stump.png" class="choice-image">
+  </button>
+</div>
+
+<div class="result-box">
+  <h3 id="user-move"></h3>
+  <h3 id="computer-move"></h3>
+  <h3 id="result"></h3>
+  <h3 id="score"></h3>
+</div>
+
+<button onclick="resetScore()">Reset</button>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
